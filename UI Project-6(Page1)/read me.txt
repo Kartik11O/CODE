@@ -1,0 +1,5 @@
+1. Added Landscape Mode (working Good)
+
+2. Fixed the mirror bug (color , font-size)
+
+3. Change the Js for 

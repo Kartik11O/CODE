@@ -1,0 +1,133 @@
+@media (max-width:600px) {
+    html{
+        font-size: 50%;
+    }
+
+    #nav-bar{
+        display: none;
+    }
+
+    #Page3_Headline {
+        font-size: 3rem;
+    }
+
+    #Page3_P {
+        font-size: 4.9rem;
+        width: clamp(300px,81vw,452px);
+    }
+
+    #First_Page_2 {
+       flex-wrap: wrap;
+    }
+
+    .box_1_page {
+        height: 50%;
+
+    }
+    .box_2_page {
+        height: 50%;
+
+    }
+    #First_Page_5-Part3 {
+        height: max-content;
+    }
+
+    #Box_2_Page_SmallP {
+        height: max-content;
+        flex-wrap: wrap;
+        /* margin: 1rem; */
+   
+    }
+    .Box_Page5_small:hover{
+        transform: none;
+    }
+    
+
+    .Box_Page5_small {
+        margin: 1rem;
+    }
+    
+    #First_footer {
+        flex-direction: column;
+    }
+
+    .Foot1 {
+        width: clamp(300px,50vw,759px);
+        height: clamp(250px,39vh,288px);
+        margin: 3rem;
+    }
+
+    #Page5_IMG_ID {
+        background-size: contain;
+    }
+
+    #Box_Page5 {
+        flex-wrap: wrap;
+        height: max-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .H3_P5_2 {
+        font-size: 1.5rem;
+    }
+
+    .H3_P5 {
+        font-size: 2rem;
+    }
+
+    .Foot1 h1 {
+        font-size: 2rem;
+    
+    }
+    .H1_P5 {
+        width: clamp(160px,91%,170px);
+    }
+
+
+    #Page_4_box {
+       background-size: contain;
+         /* height: 57vh; */
+    }
+
+    .P4_Headline {
+        font-size: 6rem;
+    }
+
+    #Headline_Page5 {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    #First_Page_5 {
+    height: clamp(300px,114vh,760px);
+    }
+
+    #First_Page_3 {
+       height: clamp(866px,105vh,886px);
+
+    }
+
+    #NavPhone23{
+        display: block !important;
+    }
+
+    #Box_2_Page5 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: clamp(300px,80vh,602px);
+    }
+
+    #Size_Phone{
+        font-size: 4.2rem;
+    }
+
+    #Cover { 
+        background-image: url(Wallpaper/CoverPhone.jpg);
+    }
+
+    #First_Page_5-Part2 {
+        margin: 2rem 0rem;
+    }
+}
